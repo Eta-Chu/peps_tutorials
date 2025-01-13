@@ -1,2 +1,2 @@
 # peps_tutorials
-A tutorials for Projected Entangled Pair State
+A tutorial for Projected Entangled Pair State
