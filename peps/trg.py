@@ -84,7 +84,7 @@ if __name__ == '__main__':
     for t in tlist:
         beta = 1 / t
         ta = jnp.zeros((2, 2, 2), dtype=jnp.float64)
-        tb = jnp.array((2, 2, 2), dtype=jnp.float64)
+        tb = jnp.zeros((2, 2, 2), dtype=jnp.float64)
 
         ta = ta.at[([1, 0, 1, 0], [1, 0, 0, 1], [1, 1, 0, 0])].set([
             np.exp((3/2)*beta*J), np.exp(-(1/2)*beta*J), np.exp(-(1/2)*beta*J), np.exp(-(1/2)*beta*J)
